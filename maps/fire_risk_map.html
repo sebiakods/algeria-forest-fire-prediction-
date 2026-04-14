@@ -1,0 +1,823 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.3/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/all.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_40e72298f11d5859e732809b5fa78187 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+
+            <style>html, body {
+                width: 100%;
+                height: 100%;
+                margin: 0;
+                padding: 0;
+            }
+            </style>
+
+            <style>#map {
+                position:absolute;
+                top:0;
+                bottom:0;
+                right:0;
+                left:0;
+                }
+            </style>
+
+            <script>
+                L_NO_TOUCH = false;
+                L_DISABLE_3D = false;
+            </script>
+
+        
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_40e72298f11d5859e732809b5fa78187" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_40e72298f11d5859e732809b5fa78187 = L.map(
+                "map_40e72298f11d5859e732809b5fa78187",
+                {
+                    center: [28.0, 2.0],
+                    crs: L.CRS.EPSG3857,
+                    ...{
+  "zoom": 6,
+  "zoomControl": true,
+  "preferCanvas": false,
+}
+
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_cc9764269ddc77c571ec59047607485e = L.tileLayer(
+                "https://tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {
+  "minZoom": 0,
+  "maxZoom": 19,
+  "maxNativeZoom": 19,
+  "noWrap": false,
+  "attribution": "\u0026copy; \u003ca href=\"https://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors",
+  "subdomains": "abc",
+  "detectRetina": false,
+  "tms": false,
+  "opacity": 1,
+}
+
+            );
+        
+    
+            tile_layer_cc9764269ddc77c571ec59047607485e.addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var marker_dd0fdd458fcb39b640ac9bcee13ac517 = L.marker(
+                [36.264, 1.968],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_6e966aa203fdc96957e87a2099b1a1d5 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_821cea7eb80806d2055ebd20a6a757ad = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_fc8f57adf59546fb98ae4bd893c54bf9 = $(`<div id="html_fc8f57adf59546fb98ae4bd893c54bf9" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Ain Defla</div>`)[0];
+                popup_821cea7eb80806d2055ebd20a6a757ad.setContent(html_fc8f57adf59546fb98ae4bd893c54bf9);
+            
+        
+
+        marker_dd0fdd458fcb39b640ac9bcee13ac517.bindPopup(popup_821cea7eb80806d2055ebd20a6a757ad)
+        ;
+
+        
+    
+    
+                marker_dd0fdd458fcb39b640ac9bcee13ac517.setIcon(icon_6e966aa203fdc96957e87a2099b1a1d5);
+            
+    
+            var marker_895aa9d4ca71644c51fc85847e81b863 = L.marker(
+                [36.756, 5.084],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_79945ef0f1c6bc4430457dc0fcc78f8e = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_45b28ba181ca14bc30cd9b54e656c3d3 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_20a074cddaad9d81e96cc4b39cb1198d = $(`<div id="html_20a074cddaad9d81e96cc4b39cb1198d" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Bejaia</div>`)[0];
+                popup_45b28ba181ca14bc30cd9b54e656c3d3.setContent(html_20a074cddaad9d81e96cc4b39cb1198d);
+            
+        
+
+        marker_895aa9d4ca71644c51fc85847e81b863.bindPopup(popup_45b28ba181ca14bc30cd9b54e656c3d3)
+        ;
+
+        
+    
+    
+                marker_895aa9d4ca71644c51fc85847e81b863.setIcon(icon_79945ef0f1c6bc4430457dc0fcc78f8e);
+            
+    
+            var marker_f9d690b71ff69a5d4ef220a172364f25 = L.marker(
+                [36.375, 3.902],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_fae46ad4a92777da659c22a8eb515a1f = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_67568d794eb6fa71f1c5708363f6cdf6 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_205bb534a8f3384a9eee1e8571cdd930 = $(`<div id="html_205bb534a8f3384a9eee1e8571cdd930" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Bouira</div>`)[0];
+                popup_67568d794eb6fa71f1c5708363f6cdf6.setContent(html_205bb534a8f3384a9eee1e8571cdd930);
+            
+        
+
+        marker_f9d690b71ff69a5d4ef220a172364f25.bindPopup(popup_67568d794eb6fa71f1c5708363f6cdf6)
+        ;
+
+        
+    
+    
+                marker_f9d690b71ff69a5d4ef220a172364f25.setIcon(icon_fae46ad4a92777da659c22a8eb515a1f);
+            
+    
+            var marker_c2ed09d8802be0c39670748b46c5cec4 = L.marker(
+                [36.876, 6.909],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_1b765d4cfb3326cbfa28f86fc5c12fbf = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_b5ccdd10f063479fce3892fbf0c73a25 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7f5bf58be1f02f7c815b6f07cbae7a02 = $(`<div id="html_7f5bf58be1f02f7c815b6f07cbae7a02" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Skikda</div>`)[0];
+                popup_b5ccdd10f063479fce3892fbf0c73a25.setContent(html_7f5bf58be1f02f7c815b6f07cbae7a02);
+            
+        
+
+        marker_c2ed09d8802be0c39670748b46c5cec4.bindPopup(popup_b5ccdd10f063479fce3892fbf0c73a25)
+        ;
+
+        
+    
+    
+                marker_c2ed09d8802be0c39670748b46c5cec4.setIcon(icon_1b765d4cfb3326cbfa28f86fc5c12fbf);
+            
+    
+            var marker_7757e3d9a7bae2a484ee28b8dcb66497 = L.marker(
+                [36.462, 7.426],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_7b956fe6bc05b6dcbe7e2701dbef4eec = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0792695a71e015637cafc53e40a1d304 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_15ce8d3a2a1d6df34db3290e0962904f = $(`<div id="html_15ce8d3a2a1d6df34db3290e0962904f" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Guelma</div>`)[0];
+                popup_0792695a71e015637cafc53e40a1d304.setContent(html_15ce8d3a2a1d6df34db3290e0962904f);
+            
+        
+
+        marker_7757e3d9a7bae2a484ee28b8dcb66497.bindPopup(popup_0792695a71e015637cafc53e40a1d304)
+        ;
+
+        
+    
+    
+                marker_7757e3d9a7bae2a484ee28b8dcb66497.setIcon(icon_7b956fe6bc05b6dcbe7e2701dbef4eec);
+            
+    
+            var marker_5bf042579c581947ba48f01c6da6b93d = L.marker(
+                [36.767, 8.313],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_0266936d4bd5cb24492bd1e67cab71e8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_76f13faeea1aa11ffe0daa2b00360f8e = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_bc0e7fa56ad7bbbf9b79e196499b96dd = $(`<div id="html_bc0e7fa56ad7bbbf9b79e196499b96dd" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: El Tarf</div>`)[0];
+                popup_76f13faeea1aa11ffe0daa2b00360f8e.setContent(html_bc0e7fa56ad7bbbf9b79e196499b96dd);
+            
+        
+
+        marker_5bf042579c581947ba48f01c6da6b93d.bindPopup(popup_76f13faeea1aa11ffe0daa2b00360f8e)
+        ;
+
+        
+    
+    
+                marker_5bf042579c581947ba48f01c6da6b93d.setIcon(icon_0266936d4bd5cb24492bd1e67cab71e8);
+            
+    
+            var marker_08a536841c1c93cc0e5cdd4094450748 = L.marker(
+                [36.712, 4.046],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_f382c11f9625d1f7aa584e2e6137c70c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_34855ddeb15bc3e746837666d0c46269 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_701932ae0178c6844ee07703810e2bfc = $(`<div id="html_701932ae0178c6844ee07703810e2bfc" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Tizi Ouzou</div>`)[0];
+                popup_34855ddeb15bc3e746837666d0c46269.setContent(html_701932ae0178c6844ee07703810e2bfc);
+            
+        
+
+        marker_08a536841c1c93cc0e5cdd4094450748.bindPopup(popup_34855ddeb15bc3e746837666d0c46269)
+        ;
+
+        
+    
+    
+                marker_08a536841c1c93cc0e5cdd4094450748.setIcon(icon_f382c11f9625d1f7aa584e2e6137c70c);
+            
+    
+            var marker_9d42295f9b534e131dca8f36cef532c6 = L.marker(
+                [36.59, 2.447],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_4c1124f5ff11e6a2b3168fb855f7d483 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_15e0e10720513745fff68c75e7df8f38 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ebf31188e7e6b5607227d484dcf82442 = $(`<div id="html_ebf31188e7e6b5607227d484dcf82442" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Tipaza</div>`)[0];
+                popup_15e0e10720513745fff68c75e7df8f38.setContent(html_ebf31188e7e6b5607227d484dcf82442);
+            
+        
+
+        marker_9d42295f9b534e131dca8f36cef532c6.bindPopup(popup_15e0e10720513745fff68c75e7df8f38)
+        ;
+
+        
+    
+    
+                marker_9d42295f9b534e131dca8f36cef532c6.setIcon(icon_4c1124f5ff11e6a2b3168fb855f7d483);
+            
+    
+            var marker_e0781ae196851aa6205f668e05d7674f = L.marker(
+                [36.165, 1.331],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_48be9f34b93208a87eb9c6fa1103f65d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "red",
+  "iconColor": "white",
+  "icon": "fire",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_5857fbb6c31fdf6138d833d30f926f48 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_7082f2e772dd05c870427af7b8876c37 = $(`<div id="html_7082f2e772dd05c870427af7b8876c37" style="width: 100.0%; height: 100.0%;">  HIGH FIRE RISK: Chlef</div>`)[0];
+                popup_5857fbb6c31fdf6138d833d30f926f48.setContent(html_7082f2e772dd05c870427af7b8876c37);
+            
+        
+
+        marker_e0781ae196851aa6205f668e05d7674f.bindPopup(popup_5857fbb6c31fdf6138d833d30f926f48)
+        ;
+
+        
+    
+    
+                marker_e0781ae196851aa6205f668e05d7674f.setIcon(icon_48be9f34b93208a87eb9c6fa1103f65d);
+            
+    
+            var marker_6be20dc57f66f0d7caf149469e642753 = L.marker(
+                [36.165, 1.331],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_3644ac505c831505e9f725c5255d3c1c = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_f0f316111de6059478fda45e34e09254 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d93f4a58a8d5648906eee8c49d62b1c9 = $(`<div id="html_d93f4a58a8d5648906eee8c49d62b1c9" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Chlef</div>`)[0];
+                popup_f0f316111de6059478fda45e34e09254.setContent(html_d93f4a58a8d5648906eee8c49d62b1c9);
+            
+        
+
+        marker_6be20dc57f66f0d7caf149469e642753.bindPopup(popup_f0f316111de6059478fda45e34e09254)
+        ;
+
+        
+    
+    
+                marker_6be20dc57f66f0d7caf149469e642753.setIcon(icon_3644ac505c831505e9f725c5255d3c1c);
+            
+    
+            var marker_970500c8f15972ce79a226338cb66bd2 = L.marker(
+                [36.462, 7.426],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_ec546764ecfd3851cdf569f917e7d83d = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9b96e815e2f8c6f5c830500846466717 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0cfbb348adbdf0bf66147ea51debe988 = $(`<div id="html_0cfbb348adbdf0bf66147ea51debe988" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Guelma</div>`)[0];
+                popup_9b96e815e2f8c6f5c830500846466717.setContent(html_0cfbb348adbdf0bf66147ea51debe988);
+            
+        
+
+        marker_970500c8f15972ce79a226338cb66bd2.bindPopup(popup_9b96e815e2f8c6f5c830500846466717)
+        ;
+
+        
+    
+    
+                marker_970500c8f15972ce79a226338cb66bd2.setIcon(icon_ec546764ecfd3851cdf569f917e7d83d);
+            
+    
+            var marker_41b02f07f86a72729b01c7b0af32b590 = L.marker(
+                [36.59, 2.447],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_f50a4d14a1f03344511c10dce07ec1b6 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_4db4353afbe98a87118aab9f4be7f4c1 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_c8f4428f5281db98e7b54d9feb7b5006 = $(`<div id="html_c8f4428f5281db98e7b54d9feb7b5006" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Tipaza</div>`)[0];
+                popup_4db4353afbe98a87118aab9f4be7f4c1.setContent(html_c8f4428f5281db98e7b54d9feb7b5006);
+            
+        
+
+        marker_41b02f07f86a72729b01c7b0af32b590.bindPopup(popup_4db4353afbe98a87118aab9f4be7f4c1)
+        ;
+
+        
+    
+    
+                marker_41b02f07f86a72729b01c7b0af32b590.setIcon(icon_f50a4d14a1f03344511c10dce07ec1b6);
+            
+    
+            var marker_8a25c5ad13e776ee80fcdb9ad7b68df9 = L.marker(
+                [36.756, 5.084],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_6cd06f88abfa7d220a57a5a5632fc2f0 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_9faa86c37b9fe34fc0ab4c67170b3461 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_ce300c0f7cad839821f6e028bf537a13 = $(`<div id="html_ce300c0f7cad839821f6e028bf537a13" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Bejaia</div>`)[0];
+                popup_9faa86c37b9fe34fc0ab4c67170b3461.setContent(html_ce300c0f7cad839821f6e028bf537a13);
+            
+        
+
+        marker_8a25c5ad13e776ee80fcdb9ad7b68df9.bindPopup(popup_9faa86c37b9fe34fc0ab4c67170b3461)
+        ;
+
+        
+    
+    
+                marker_8a25c5ad13e776ee80fcdb9ad7b68df9.setIcon(icon_6cd06f88abfa7d220a57a5a5632fc2f0);
+            
+    
+            var marker_836cad04278f574663152a9e01c76600 = L.marker(
+                [36.712, 4.046],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_145ddcf37b9e2417a8fbb25357183ed1 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_0dc4508116f05e77ebf40865394b20c9 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_18a950807b49e500fef080719e34e3cf = $(`<div id="html_18a950807b49e500fef080719e34e3cf" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Tizi Ouzou</div>`)[0];
+                popup_0dc4508116f05e77ebf40865394b20c9.setContent(html_18a950807b49e500fef080719e34e3cf);
+            
+        
+
+        marker_836cad04278f574663152a9e01c76600.bindPopup(popup_0dc4508116f05e77ebf40865394b20c9)
+        ;
+
+        
+    
+    
+                marker_836cad04278f574663152a9e01c76600.setIcon(icon_145ddcf37b9e2417a8fbb25357183ed1);
+            
+    
+            var marker_1177818b177e749bb02b5d306de79c8d = L.marker(
+                [36.876, 6.909],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_c32ad0d4566a173ebf38c458c4c389f2 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_42dcecdc3a9e1a771ab39d2c9fd424f4 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_f949ea9ed09b5c9b845356d842433881 = $(`<div id="html_f949ea9ed09b5c9b845356d842433881" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Skikda</div>`)[0];
+                popup_42dcecdc3a9e1a771ab39d2c9fd424f4.setContent(html_f949ea9ed09b5c9b845356d842433881);
+            
+        
+
+        marker_1177818b177e749bb02b5d306de79c8d.bindPopup(popup_42dcecdc3a9e1a771ab39d2c9fd424f4)
+        ;
+
+        
+    
+    
+                marker_1177818b177e749bb02b5d306de79c8d.setIcon(icon_c32ad0d4566a173ebf38c458c4c389f2);
+            
+    
+            var marker_d9d239c699d78120e706b100f206689d = L.marker(
+                [36.375, 3.902],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_9c4ab70eaaf129a8cd21107c8e5ae9aa = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_2979b7ed480787c5e2884c6481e49465 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_d3a0d73486b2232465caff5c632e3963 = $(`<div id="html_d3a0d73486b2232465caff5c632e3963" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Bouira</div>`)[0];
+                popup_2979b7ed480787c5e2884c6481e49465.setContent(html_d3a0d73486b2232465caff5c632e3963);
+            
+        
+
+        marker_d9d239c699d78120e706b100f206689d.bindPopup(popup_2979b7ed480787c5e2884c6481e49465)
+        ;
+
+        
+    
+    
+                marker_d9d239c699d78120e706b100f206689d.setIcon(icon_9c4ab70eaaf129a8cd21107c8e5ae9aa);
+            
+    
+            var marker_7dd2e83da6eb2a6233025790b38b767a = L.marker(
+                [36.767, 8.313],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_29705ac46da42c8484a838150f134ce4 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_255cd42cf7bad931171244aad49aec90 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_2e5b54e7b9ec85aff3abd6ecd03b93a8 = $(`<div id="html_2e5b54e7b9ec85aff3abd6ecd03b93a8" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: El Tarf</div>`)[0];
+                popup_255cd42cf7bad931171244aad49aec90.setContent(html_2e5b54e7b9ec85aff3abd6ecd03b93a8);
+            
+        
+
+        marker_7dd2e83da6eb2a6233025790b38b767a.bindPopup(popup_255cd42cf7bad931171244aad49aec90)
+        ;
+
+        
+    
+    
+                marker_7dd2e83da6eb2a6233025790b38b767a.setIcon(icon_29705ac46da42c8484a838150f134ce4);
+            
+    
+            var marker_29abb02f9ae9895b5cdfa9625b4ce5b0 = L.marker(
+                [36.264, 1.968],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_a8335dd9b564053ac04f8a57eac13630 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_dd0bbdc13ae0d8e8cb983542c1102a85 = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_0d3833038c5c060318fc629197bec4f2 = $(`<div id="html_0d3833038c5c060318fc629197bec4f2" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Ain Defla</div>`)[0];
+                popup_dd0bbdc13ae0d8e8cb983542c1102a85.setContent(html_0d3833038c5c060318fc629197bec4f2);
+            
+        
+
+        marker_29abb02f9ae9895b5cdfa9625b4ce5b0.bindPopup(popup_dd0bbdc13ae0d8e8cb983542c1102a85)
+        ;
+
+        
+    
+    
+                marker_29abb02f9ae9895b5cdfa9625b4ce5b0.setIcon(icon_a8335dd9b564053ac04f8a57eac13630);
+            
+    
+            var marker_f71cab149a533bdc36274ff89971e7ff = L.marker(
+                [36.82, 5.766],
+                {
+}
+            ).addTo(map_40e72298f11d5859e732809b5fa78187);
+        
+    
+            var icon_c401a899192ed4de40f55f072124aca8 = L.AwesomeMarkers.icon(
+                {
+  "markerColor": "green",
+  "iconColor": "white",
+  "icon": "leaf",
+  "prefix": "fa",
+  "extraClasses": "fa-rotate-0",
+}
+            );
+        
+    
+        var popup_7f2f7f20a80ed9a50dc347bbf8cf3b0b = L.popup({
+  "maxWidth": "100%",
+});
+
+        
+            
+                var html_a4c1e244ac1abc817ad9b8b75e9a0009 = $(`<div id="html_a4c1e244ac1abc817ad9b8b75e9a0009" style="width: 100.0%; height: 100.0%;"> Low Fire Risk: Jijel</div>`)[0];
+                popup_7f2f7f20a80ed9a50dc347bbf8cf3b0b.setContent(html_a4c1e244ac1abc817ad9b8b75e9a0009);
+            
+        
+
+        marker_f71cab149a533bdc36274ff89971e7ff.bindPopup(popup_7f2f7f20a80ed9a50dc347bbf8cf3b0b)
+        ;
+
+        
+    
+    
+                marker_f71cab149a533bdc36274ff89971e7ff.setIcon(icon_c401a899192ed4de40f55f072124aca8);
+            
+</script>
+</html>

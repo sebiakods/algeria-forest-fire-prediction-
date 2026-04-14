@@ -1,0 +1,30 @@
+
+========================================
+ALGERIA FOREST FIRE PREDICTION REPORT
+========================================
+
+Dataset Information:
+- Total samples: 300
+- Fire cases: 30
+- Non-fire cases: 270
+
+Model Performance:
+- Accuracy: 91.67%
+- Model used: Random Forest Classifier
+
+High Risk Regions:
+Region
+chlef         5
+el tarf       4
+skikda        4
+guelma        3
+bouira        3
+ain defla     2
+bejaia        2
+tizi ouzou    1
+tipaza        1
+
+Map Location:
+c:\Users\hp\Desktop\lesincendies\maps\fire_risk_map.html
+
+========================================

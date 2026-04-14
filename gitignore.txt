@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+ENV/
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Model files (optional - uncomment if too large)
+# models/*.pkl
+
+# Map files (optional - uncomment if too large)
+# maps/*.html
+
+# GeoJSON (optional - uncomment if too large)
+# geojson/*.json
+
+# Data files (optional - uncomment if you want to exclude data)
+# data/*.csv
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+*.db
+
+# Flask
+instance/
+.webassets-cache
