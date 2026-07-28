@@ -1,6 +1,6 @@
 # Algeria Forest Fire Prediction System 
 
-A machine learning system to predict forest fire risks in Algeria using meteorological data and geospatial analysis.
+A machine learning system to predict forest fire risks in Algeria using meteorological data and geospatial analysis
 
 ##  Project Overview
 
