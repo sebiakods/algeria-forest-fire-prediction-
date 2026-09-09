@@ -23,5 +23,5 @@ The dataset contains 244 instances from Algerian regions with features including
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/YOUR_USERNAME/algeria-forest-fire-prediction.git
-cd algeria-forest-fire-prediction
+git clone https://github.com/sebiakods/algeria-forest-fire-prediction-.git
+cd algeria-forest-fire-prediction-
