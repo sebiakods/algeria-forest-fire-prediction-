@@ -25,6 +25,6 @@ tizi ouzou    1
 tipaza        1
 
 Map Location:
-c:\Users\hp\Desktop\lesincendies\maps\fire_risk_map.html
+..\maps\fire_risk_map.html
 
 ========================================
