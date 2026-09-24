@@ -19,7 +19,7 @@ The dataset contains 244 instances from Algerian regions with features including
 - Fire Weather Index components: FFMC, DMC, DC, ISI, BUI, FWI
 - Regions: Bejaia, Bouira, Chlef, El Tarf, Guelma, Jijel, Skikda, Tipaza, Tizi Ouzou
 
-##  Installation
+##  Installation :
 
 1. Clone the repository:
 ```bash
