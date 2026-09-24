@@ -2,7 +2,7 @@
 
 A machine learning system to predict forest fire risks in Algeria using meteorological data and geospatial analysis
 
-##  Project Overview
+##  Project Overview :
 
 This project uses Random Forest classification to predict forest fire occurrences in Algerian regions based on weather conditions and fire weather indices.
 
