@@ -12,7 +12,7 @@ This project uses Random Forest classification to predict forest fire occurrence
 - **REST API** for real-time predictions
 - **Multiple ML models** comparison (Logistic Regression, Decision Tree, SVM, Neural Network)
 
-##  Dataset
+##  Dataset :
 
 The dataset contains 244 instances from Algerian regions with features including:
 - Temperature, Relative Humidity (RH), Wind Speed (Ws), Rain
