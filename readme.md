@@ -2,6 +2,17 @@
 
 A machine learning system to predict forest fire risks in Algeria using meteorological data and geospatial analysis
 
+##  Forest Fire Risk Map
+
+The system provides a geospatial visualization of predicted forest-fire risk across Algerian regions.
+
+<p align="center">
+  <img src="maps/screenshotofthemap.jpg" alt="Algeria Forest Fire Risk Map" width="900">
+</p>
+
+The interactive map is also available in [`maps/fire_risk_map.html`](maps/fire_risk_map.html).
+
+
 ##  Project Overview :
 
 This project uses Random Forest classification to predict forest fire occurrences in Algerian regions based on weather conditions and fire weather indices.
